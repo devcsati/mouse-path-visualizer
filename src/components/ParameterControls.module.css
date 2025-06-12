@@ -1,0 +1,65 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background-color: #f3f4f6;
+	border: 1px solid #e5e7eb;
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+
+.groupTitle {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.75rem;
+	border-bottom: 1px solid #d1d5db;
+	padding-bottom: 0.5rem;
+}
+
+.controlGroup {
+	padding: 0.5rem;
+	border: 1px solid #d1d5db;
+	border-radius: 0.25rem;
+}
+
+.label {
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #374151;
+}
+
+.slider {
+	width: 100%;
+}
+
+.select {
+	margin-top: 0.25rem;
+	display: block;
+	width: 100%;
+	padding-left: 0.75rem;
+	padding-right: 2.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 0.875rem;
+	border-radius: 0.375rem;
+	border: 1px solid #d1d5db;
+}
+
+.infoBox {
+	text-align: center;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #1f2937;
+	padding: 0.5rem;
+	background-color: #dbeafe;
+	border: 1px solid #bfdbfe;
+	border-radius: 0.25rem;
+}

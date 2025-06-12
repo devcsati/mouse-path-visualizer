@@ -1,0 +1,43 @@
+.controls {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.button {
+	padding: 0.5rem 1rem;
+	color: white;
+	border: none;
+	border-radius: 0.375rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.button:disabled {
+	background-color: #9ca3af;
+	cursor: not-allowed;
+}
+
+.playButton {
+	background-color: #22c55e;
+}
+
+.playButton:hover:not(:disabled) {
+	background-color: #16a34a;
+}
+
+.stopButton {
+	background-color: #f59e0b;
+}
+
+.stopButton:hover:not(:disabled) {
+	background-color: #d97706;
+}
+
+.clearButton {
+	background-color: #ef4444;
+}
+
+.clearButton:hover:not(:disabled) {
+	background-color: #dc2626;
+}
