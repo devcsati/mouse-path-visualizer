@@ -24,11 +24,11 @@
 }
 
 .content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	display: grid;
+	grid-template-rows: 1fr auto;
 	padding: 1.5rem;
 	gap: 1.5rem;
 	background-color: #f9fafb;
+	height: 100vh;
+	overflow: hidden;
 }

@@ -10,7 +10,13 @@ type EasingGraphProps = {
 const EasingGraph: React.FC<EasingGraphProps> = ({ params }) => {
 	const segmentCount = params.length;
 	if (segmentCount === 0) {
-		return null;
+		return (
+			<div className={styles.graphContainer}>
+				<div className={styles.placeholder}>
+					Draw a path to see the animation profile graph.
+				</div>
+			</div>
+		);
 	}
 
 	const totalWidth = 800;
